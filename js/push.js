@@ -100,11 +100,11 @@
     fabPushElement.checked = status;
     if (status) {
       fabPushElement.classList.add('active');
-      fabPushImgElement.src = 'https://termassignment.s3.amazonaws.com/push-on.png';
+      fabPushImgElement.src = 'https://finalproject0.s3.amazonaws.com/push-on.png';
     }
     else {
      fabPushElement.classList.remove('active');
-     fabPushImgElement.src = 'https://termassignment.s3.amazonaws.com/push-off.png';
+     fabPushImgElement.src = 'https://finalproject0.s3.amazonaws.com/push-off.png';
     }
   }
 
